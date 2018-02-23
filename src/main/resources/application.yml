@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: hello-client
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone:  https://eureka-micro.herokuapp.com/eureka/
+  instance:
+    hostname: localhost
+    
+#hystrix:
+#  command:
+#    default:
+#      execution:
+#        isolation:
+#          thread:
+#            timeoutInMilliseconds: 60000  
