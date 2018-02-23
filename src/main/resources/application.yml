@@ -9,7 +9,7 @@ eureka:
     serviceUrl:
       defaultZone:  https://eureka-micro.herokuapp.com/eureka/
   instance:
-    hostname: localhost
+    hostname: eureka-client-micro.herokuapp.com
     
 #hystrix:
 #  command:
