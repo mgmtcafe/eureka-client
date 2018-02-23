@@ -7,7 +7,7 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone:  https://eureka-micro.herokuapp.com/eureka/
+      defaultZone:  https://user:password@eureka-micro.herokuapp.com/eureka/
   instance:
     hostname: eureka-client-micro.herokuapp.com
     
