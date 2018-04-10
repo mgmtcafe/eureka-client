@@ -7,9 +7,9 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone:  https://user:password@eureka-micro.herokuapp.com/eureka/
+      defaultZone:  https://eureka-e668d397-a9ac-475e-8b76-fbe21e0138e9.cfapps.io
   instance:
-    hostname: eureka-client-micro.herokuapp.com
+    hostname: eureka-e668d397-a9ac-475e-8b76-fbe21e0138e9.cfapps.io
     
 #hystrix:
 #  command:
